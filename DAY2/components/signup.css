@@ -1,0 +1,104 @@
+.content_box
+{
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.outer
+{
+    /* border: 1px solid white;' */
+    margin-right: 48%;
+    height: 100%;
+    width: 40%;
+    align-items: center; 
+    opacity: 0.8;
+}
+#head
+{
+    color: rgb(224, 210, 50);
+   
+    margin-top: 20%;
+}
+#title
+{
+    color: blueviolet;
+    margin-top: 10%;
+}
+#t
+{
+color: blueviolet;
+
+}
+.music
+{
+    margin-left: 200px;
+}
+#usrnm
+{
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 35px;
+    width:60%;
+    background-color: hsl(0, 6%, 97%);
+    margin-right: 20%;
+}
+#eml
+{
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 35px;
+    width:60%;
+    background-color: white;
+    margin-right: 20%;
+}
+#pwd
+{
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 35px;
+    width:60%;
+    background-color: white;
+    margin-right: 20%;
+}
+#mob
+{
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 35px;
+    width:60%;
+    background-color: white;
+    margin-right: 20%;
+}
+#cname,#cemail,#cpassword,#cphone
+{
+    color: red;
+}
+.fields{
+    background-color: black;
+    text-align: center;
+    height: 500px;
+    padding-left: 10%;
+    margin-top: 10%;
+    position: left;
+    width: 300px;
+    border-radius: 10%;
+    
+}
+#lower
+{
+    color: blueviolet;
+}
+#content_box{
+    background-color: white;
+}
+.context{
+    height: 100%;
+    width: 75%;
+    padding-top: 10px;
+    justify-content: center;
+}
