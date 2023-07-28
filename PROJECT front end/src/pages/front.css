@@ -1,0 +1,38 @@
+  h1{
+    color:white;
+  }
+  .music-panels {
+    padding: 20px;
+    margin: 0 auto;
+    float: left;
+    border-radius: 10px;
+    /* background-color: black; */
+  }
+  .music-panels a {
+    text-decoration: none;
+    font-family: "Market Deco";
+    font-size: 36px;
+    color: black;
+  }
+  .music-panels img {
+    overflow: hidden;
+    height: 200px;
+    transition: transform 0.2s;
+    padding: 19px;
+  }
+  .music-panels img:hover {
+    overflow: hidden;
+    transform: scale(1.3);
+  }
+  .back
+  {
+    background-color: rgb(53, 0, 103);
+    margin-top: -55%;
+    margin-left: 3%;
+  }
+  #hads
+  {
+    margin-left: 45%;
+    font-size: large;
+    color: aliceblue;
+  }

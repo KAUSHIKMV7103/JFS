@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+main{
+  width: 100%;
+  padding: 20px;
+ 
+}
+.sidebar{
+  background-color: rgb(53, 0, 103);
+  color: aliceblue;
+  height: 100vh;
+  width: 300px;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size: 25px;
+}
+.bars{
+  display: flex ;
+  font-size: 25px;
+  margin-left: 30px;
+
+}
+.link{
+  display:flex ;
+  color: azure;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: grey;
+  color: black;
+  transition: all 0.5s;
+}
+.active{
+  background: lightpink;
+  color: black;
+}
+.icon,link_text{
+  font-size: 20px;
+}
+.music-panels {
+  padding: 20px;
+  margin: 0 auto;
+  float: left;
+  border-radius: 10px;
+  /* background-color: rgb(23, 13, 13); */
+}
+.music-panels a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 36px;
+  color: rgb(14, 13, 13);
+}
+.music-panels img {
+  overflow: hidden;
+  height: 200px;
+  transition: transform 0.2s;
+  /*  padding: 19px; */
+  /* box-shadow: 0 0.1em 1.550em rgb(36, 27, 27); */
+}
+.music-panels img:hover {
+  overflow: hidden;
+  transform: scale(1.3);
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+}
+#login{
+  
+  
+  height: 50px;
+  width: 90px;
+  margin-left: 90%;
+  border-radius: 1em;
+  text-align: right; 
+  background-color: rgb(176, 176, 179);
+  justify-content: center;
+  text-align: center;
+  
+}
+#hads
+{
+  background-color: rgb(53, 0, 103);
+}

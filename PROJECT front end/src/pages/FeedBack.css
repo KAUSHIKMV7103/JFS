@@ -1,0 +1,91 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url("../images/feedback.jpg");
+}
+
+.Feedform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(110, 4, 209);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputt {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 100px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #25db00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1ea500;
+}
+
+/* Uncomment the following styles if you use the ChevronLeftCircle icon */
+/* .route-btn-1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+} */
+
+/* .route-btn-1:hover {
+  transform: scale(1.1);
+} */
+
+/* Toaster styles */
+.toast {
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.toast-success {
+  background-color: #25db00;
+}
+
+.toast-error {
+  background-color: #e50000;
+}
+#feed
+{
+  color: black;
+}
